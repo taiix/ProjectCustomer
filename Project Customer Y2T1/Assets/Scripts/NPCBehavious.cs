@@ -21,6 +21,7 @@ public class NPCBehavious : MonoBehaviour
         clip = GetComponent<AudioSource>();
     }
 
+    //Move forward and calculate the distance between the player and the car
     private void Update()
     {
         dist = this.transform.position.z - player.transform.position.z;

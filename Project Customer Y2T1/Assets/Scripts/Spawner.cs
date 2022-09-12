@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -9,9 +7,11 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
+        //Call SpawnCars every X seconds
         InvokeRepeating("SpawnCars", 2.0f, 2.0f);
     }
 
+    //Spawn cars on random X position
     void SpawnCars()
     {
         Instantiate(carPrefab, 
