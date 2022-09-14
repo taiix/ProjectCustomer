@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
+    [Header("Wheel Colliders")]
     [SerializeField] WheelCollider frontLeft;
     [SerializeField] WheelCollider frontRight;
     [SerializeField] WheelCollider backLeft;
-    [SerializeField] WheelCollider backRight;
+    [SerializeField] WheelCollider backRight; 
+    
+    [Header("Wheel Objects")]
+    [SerializeField] Transform frontLeftTrans;
+    [SerializeField] Transform frontRightTrans;
+    [SerializeField] Transform backLeftTrans;
+    [SerializeField] Transform backRightTrans;
 
     public float maxTorque;
     public float maxAngle;
@@ -24,6 +31,11 @@ public class CarController : MonoBehaviour
         Steering(steering);
 
         Brakes();
+
+        UpdateWheelPos(frontLeft, frontLeftTrans);
+        UpdateWheelPos(frontRight, frontRightTrans);
+
+        
     }
 
     void MotorTorque(float speed)
@@ -51,5 +63,15 @@ public class CarController : MonoBehaviour
         frontRight.brakeTorque = brakeForce;
         backLeft.brakeTorque = brakeForce;
         backRight.brakeTorque = brakeForce;
+    }
+
+    void UpdateWheelPos(WheelCollider col, Transform wheel) {
+        Vector3 pos;
+        Quaternion rot;
+
+        col.GetWorldPose(out pos, out rot);
+
+        wheel.transform.position = pos;
+        wheel.transform.rotation = rot;
     }
 }
