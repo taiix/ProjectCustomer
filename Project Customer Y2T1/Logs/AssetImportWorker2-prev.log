@@ -3,12 +3,15 @@ Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revisi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 15724 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\2021.3.9f1\Editor\Unity.exe
 =======
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
@@ -20,6 +23,9 @@ COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -31,6 +37,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +53,8 @@ D:/Project Customer Y2T1/ProjectCustomer/Project Customer Y2T1
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 C:/Users/tboy7/OneDrive/Dokumente/GitHub/ProjectCustomer/Project Customer Y2T1
 -logFile
 Logs/AssetImportWorker2.log
@@ -55,6 +64,9 @@ Successfully changed project path to: C:/Users/tboy7/OneDrive/Dokumente/GitHub/P
 C:/Users/tboy7/OneDrive/Dokumente/GitHub/ProjectCustomer/Project Customer Y2T1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -92,6 +104,7 @@ C:/Users/tboy7/OneDrive/Dokumente/GitHub/ProjectCustomer/Project Customer Y2T1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 85.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
@@ -122,6 +135,8 @@ Domain Reload Profiling:
 	ReloadAssembly (524ms)
 		BeginReloadAssembly (64ms)
 =======
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
@@ -157,6 +172,9 @@ Domain Reload Profiling:
 		BeginReloadAssembly (89ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -167,6 +185,7 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +208,8 @@ Domain Reload Profiling:
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 		EndReloadAssembly (526ms)
 			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -205,6 +226,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (54ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -216,6 +240,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3931,12 +3956,17 @@ Symbol file LoadedFromMemory doesn't match image D:\Project Customer Y2T1\Projec
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 Registered in 0.007104 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tboy7\OneDrive\Dokumente\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tboy7\OneDrive\Dokumente\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -3946,6 +3976,7 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3978,6 +4009,8 @@ Domain Reload Profiling:
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 - Completed reload, in  1.057 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1058ms)
@@ -4004,6 +4037,9 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (9ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -4016,6 +4052,7 @@ Platform modules already initialized, skipping
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
@@ -4023,6 +4060,8 @@ Unloading 32 unused Assets / (1.3 MB). Loaded Objects now: 4268.
 Memory consumption went from 146.9 MB to 145.6 MB.
 Total: 4.253800 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.096000 ms MarkObjects: 3.279600 ms  DeleteObjects: 0.477400 ms)
 =======
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
@@ -4038,6 +4077,9 @@ Memory consumption went from 134.5 MB to 133.2 MB.
 Total: 6.162800 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.336300 ms MarkObjects: 5.052300 ms  DeleteObjects: 0.354800 ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -4057,6 +4099,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4237,12 +4280,17 @@ Symbol file LoadedFromMemory doesn't match image D:\Project Customer Y2T1\Projec
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 Registered in 0.008180 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tboy7\OneDrive\Dokumente\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tboy7\OneDrive\Dokumente\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -4252,6 +4300,7 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4633,6 +4682,8 @@ Total: 5.337400 ms (FindLiveObjects: 0.993500 ms CreateObjectMapping: 0.281100 m
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 - Completed reload, in  1.153 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1153ms)
@@ -4669,6 +4720,9 @@ Memory consumption went from 130.2 MB to 128.9 MB.
 Total: 3.816600 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.177200 ms MarkObjects: 3.170600 ms  DeleteObjects: 0.209400 ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
@@ -4690,6 +4744,7 @@ Received Prepare
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Trying to reload asset but can't find object on disk
 Registering precompiled user dll's ...
 Registered in 0.004930 seconds.
@@ -4700,6 +4755,8 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 =======
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
@@ -4841,6 +4898,10 @@ AssetImportWorker is now disconnected from the server
 Process exiting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 Exiting without the bug reporter. Application will terminate with return code 0
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======

@@ -36,12 +36,15 @@ public class CarController : MonoBehaviour
         float speed = Input.GetAxis("Vertical") * maxTorque;
         float steering = Input.GetAxis("Horizontal") * maxAngle;
 <<<<<<< HEAD
+<<<<<<< HEAD
         float kmph = (int)rb.velocity.magnitude * 3.6f;
         Debug.Log(kmph);
         if (kmph <= 80)
         {
             MotorTorque(speed);
         }
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 =======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
 
@@ -54,13 +57,19 @@ public class CarController : MonoBehaviour
         UpdateWheelPos(frontRight, frontRightTrans);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         speedometer = (float)rb.velocity.magnitude * 3.6f;
         speedometer = (float)rb.velocity.magnitude*3.6f;        
 =======
+=======
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
         speedometer = (float)rb.velocity.magnitude*3.6f;
         
 
         
+<<<<<<< HEAD
+>>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
     }
 
