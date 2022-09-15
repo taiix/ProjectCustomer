@@ -20,12 +20,27 @@ public class CarController : MonoBehaviour
     public float maxAngle;
     public float brakeForce;
 
+    public static float speedometer;
+
     private bool brake;
+
+    Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void FixedUpdate()
     {
         float speed = Input.GetAxis("Vertical") * maxTorque;
         float steering = Input.GetAxis("Horizontal") * maxAngle;
+        float kmph = (int)rb.velocity.magnitude * 3.6f;
+        Debug.Log(kmph);
+        if (kmph <= 80)
+        {
+            MotorTorque(speed);
+        }
 
         MotorTorque(speed);
         Steering(steering);
@@ -35,7 +50,7 @@ public class CarController : MonoBehaviour
         UpdateWheelPos(frontLeft, frontLeftTrans);
         UpdateWheelPos(frontRight, frontRightTrans);
 
-        
+        speedometer = (float)rb.velocity.magnitude * 3.6f;
     }
 
     void MotorTorque(float speed)
