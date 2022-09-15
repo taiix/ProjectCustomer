@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 27d961fd0922a1b4bbfebb46da7512cf
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Aldrich
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 55a78ec6ef088c14ebb8c58a5ce8a72f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

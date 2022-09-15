@@ -20,7 +20,16 @@ public class CarController : MonoBehaviour
     public float maxAngle;
     public float brakeForce;
 
+    public static float speedometer;
+
     private bool brake;
+
+    Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void FixedUpdate()
     {
@@ -34,6 +43,9 @@ public class CarController : MonoBehaviour
 
         UpdateWheelPos(frontLeft, frontLeftTrans);
         UpdateWheelPos(frontRight, frontRightTrans);
+
+        speedometer = (float)rb.velocity.magnitude*3.6f;
+        
 
         
     }
