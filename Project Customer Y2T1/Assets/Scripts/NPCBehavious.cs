@@ -35,7 +35,7 @@ public class NPCBehavious : MonoBehaviour
         rb.velocity = transform.forward * speed;
 
         //CarAudio();
-        //DestroyTheCar();
+        DestroyTheCar();
     }
 
     void DestroyTheCar() {
