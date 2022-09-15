@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     {
         playerOffset = GameObject.FindGameObjectWithTag("Player");
         //Call SpawnCars every X seconds
-        InvokeRepeating("SpawnCars", 3f, 3f);
+        InvokeRepeating("SpawnCars", 10f, 3f);
     }
     private void Update()
     {
