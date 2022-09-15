@@ -8,8 +8,8 @@ public class CarController : MonoBehaviour
     [SerializeField] WheelCollider frontLeft;
     [SerializeField] WheelCollider frontRight;
     [SerializeField] WheelCollider backLeft;
-    [SerializeField] WheelCollider backRight; 
-    
+    [SerializeField] WheelCollider backRight;
+
     [Header("Wheel Objects")]
     [SerializeField] Transform frontLeftTrans;
     [SerializeField] Transform frontRightTrans;
@@ -21,13 +21,25 @@ public class CarController : MonoBehaviour
     public float brakeForce;
 
     private bool brake;
+    private Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void FixedUpdate()
     {
-        float speed = Input.GetAxis("Vertical") * maxTorque;
+        
         float steering = Input.GetAxis("Horizontal") * maxAngle;
 
-        MotorTorque(speed);
+        float kmph = (int)rb.velocity.magnitude * 3.6f;
+        Debug.Log(kmph);
+        if (kmph <= 80)
+        {
+            float speed = Input.GetAxis("Vertical") * maxTorque;
+            MotorTorque(speed);
+        }
         Steering(steering);
 
         Brakes();
@@ -35,7 +47,6 @@ public class CarController : MonoBehaviour
         UpdateWheelPos(frontLeft, frontLeftTrans);
         UpdateWheelPos(frontRight, frontRightTrans);
 
-        
     }
 
     void MotorTorque(float speed)
@@ -65,7 +76,8 @@ public class CarController : MonoBehaviour
         backRight.brakeTorque = brakeForce;
     }
 
-    void UpdateWheelPos(WheelCollider col, Transform wheel) {
+    void UpdateWheelPos(WheelCollider col, Transform wheel)
+    {
         Vector3 pos;
         Quaternion rot;
 
