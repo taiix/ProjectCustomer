@@ -41,9 +41,6 @@ public class CarController : MonoBehaviour
         {
             MotorTorque(speed);
         }
-        MotorTorque(speed);
-        MotorTorque(speed);
-        MotorTorque(speed);
         Steering(steering);
 
         Brakes();
@@ -52,11 +49,7 @@ public class CarController : MonoBehaviour
         UpdateWheelPos(frontRight, frontRightTrans);
 
         speedometer = (float)rb.velocity.magnitude * 3.6f;
-
-
-
-        speedometer = (float)rb.velocity.magnitude*3.6f;
-
+        
     }
 
     void MotorTorque(float speed)
