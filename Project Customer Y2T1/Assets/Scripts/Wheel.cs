@@ -12,7 +12,7 @@ public class Wheel : MonoBehaviour
     void Update()
     {
         // CarWheelRotation();
-        transform.eulerAngles = new Vector3(transform.position.x, transform.position.y, -Input.GetAxis("Horizontal") * 180);
+        transform.localRotation = Quaternion.Euler(0, 0, -Input.GetAxis("Horizontal") * 180);
     }
 
     void CarWheelRotation()
