@@ -36,6 +36,7 @@ public class CarController : MonoBehaviour
         float speed = Input.GetAxis("Vertical") * maxTorque;
         float steering = Input.GetAxis("Horizontal") * maxAngle;
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         float kmph = (int)rb.velocity.magnitude * 3.6f;
         Debug.Log(kmph);
@@ -46,6 +47,9 @@ public class CarController : MonoBehaviour
 =======
         MotorTorque(speed);
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+        MotorTorque(speed);
+>>>>>>> Stashed changes
         Steering(steering);
 
         Brakes();
@@ -53,17 +57,23 @@ public class CarController : MonoBehaviour
         UpdateWheelPos(frontLeft, frontLeftTrans);
         UpdateWheelPos(frontRight, frontRightTrans);
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         speedometer = (float)rb.velocity.magnitude * 3.6f;
 
 
 
 =======
+=======
+>>>>>>> Stashed changes
         speedometer = (float)rb.velocity.magnitude*3.6f;
         
 
         
+<<<<<<< Updated upstream
 >>>>>>> cf15c23b0168036f2f32ddb234ded156a0382b4d
+=======
+>>>>>>> Stashed changes
     }
 
     void MotorTorque(float speed)
