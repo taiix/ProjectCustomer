@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 70fd9a76048a445478641eb3f1390d23
+guid: f683a590a2aac4243b8fee802ea0a7de
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Concrete
-    second: {fileID: 2100000, guid: 4c26851a693ab2c4bb6cb2ac308db8e6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Concrete_Var_2
-    second: {fileID: 2100000, guid: db6497e7a6128444b8a32682ff1fe396, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Window_Frame
-    second: {fileID: 2100000, guid: 37879c4259070da499f82315a598d704, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
