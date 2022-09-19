@@ -15,7 +15,7 @@ C:/Users/juan5/OneDrive/Documents/GitHub/ProjectCustomer/Project Customer Y2T1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49693
+57501
 Successfully changed project path to: C:/Users/juan5/OneDrive/Documents/GitHub/ProjectCustomer/Project Customer Y2T1
 C:/Users/juan5/OneDrive/Documents/GitHub/ProjectCustomer/Project Customer Y2T1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/juan5/OneDrive/Documents/GitHub/ProjectCustomer/Project Customer Y2T1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 64.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,77 +63,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007407 seconds.
+Registered in 0.009974 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.512 seconds
+- Completed reload, in  0.697 seconds
 Domain Reload Profiling:
-	ReloadAssembly (512ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (359ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (107ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (218ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005749 seconds.
+Registered in 0.007335 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\juan5\OneDrive\Documents\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\juan5\OneDrive\Documents\GitHub\ProjectCustomer\Project Customer Y2T1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
+- Completed reload, in  0.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (810ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (191ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (207ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4020.
 Memory consumption went from 134.8 MB to 133.5 MB.
-Total: 3.285500 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.211800 ms MarkObjects: 2.509000 ms  DeleteObjects: 0.306400 ms)
+Total: 3.029300 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.293500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,59 +163,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 82705.846453 seconds.
-  path: Assets/Models/Cars/SM_Ambulance.fbx
-  artifactKey: Guid(62ebc64feba3f604381390fbb619c0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cars/SM_Ambulance.fbx using Guid(62ebc64feba3f604381390fbb619c0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4286a86f90fa0ba601fb299cb36622a8') in 0.184207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.480245 seconds.
-  path: Assets/Models/Trees
-  artifactKey: Guid(e4115ab9be40b68499db7b6407fa8664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Trees using Guid(e4115ab9be40b68499db7b6407fa8664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3704299bb2c4a5ca6f32a9825a4b6a3d') in 0.006374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.721958 seconds.
-  path: Assets/Models/Roads
-  artifactKey: Guid(1b3eb853336197d46a10a804936e4999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Roads using Guid(1b3eb853336197d46a10a804936e4999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28af5bc32eb1f91409623d74a5a98b1') in 0.006288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.846758 seconds.
-  path: Assets/Models/Roads/Highway
-  artifactKey: Guid(b83953a7bc964e94e9d4bce8cb9fb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Roads/Highway using Guid(b83953a7bc964e94e9d4bce8cb9fb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c442ba5e753515985a86f7cbe90392d5') in 0.006226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.073831 seconds.
-  path: Assets/Models/Roads/Highway/SM_Highway.fbx
-  artifactKey: Guid(bc937490b7a742347acb50c2b51202d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Roads/Highway/SM_Highway.fbx using Guid(bc937490b7a742347acb50c2b51202d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23702ecbd26130eec488723a6dda996b') in 0.021487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.663589 seconds.
-  path: Assets/Models/Roads/SM_Road_CrossWalk.fbx
-  artifactKey: Guid(e756c1cc270a30343a69f7d8dac7dc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Roads/SM_Road_CrossWalk.fbx using Guid(e756c1cc270a30343a69f7d8dac7dc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14ac6961be5221d5a38a7d701df6123') in 0.044347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 95.923978 seconds.
-  path: Assets/Models/Lights
-  artifactKey: Guid(f6ef9fad9d201eb47b7412ed584bbfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lights using Guid(f6ef9fad9d201eb47b7412ed584bbfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349ae03ab83238d6e96118a68f90fe70') in 0.005814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.085620 seconds.
-  path: Assets/Models/Lights/City Lights.fbx
-  artifactKey: Guid(f683a590a2aac4243b8fee802ea0a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lights/City Lights.fbx using Guid(f683a590a2aac4243b8fee802ea0a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535764ccd27e63e1d212216ee8f545da') in 0.110468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Lights/TrafficLight.fbx
-  artifactKey: Guid(7c5c8a85fae954f4789630922f453f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lights/TrafficLight.fbx using Guid(7c5c8a85fae954f4789630922f453f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3819f2e097ffb856b31453f472cf3689') in 0.048793 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 132452.875160 seconds.
+  path: Assets/Models/Buildings/Build_02/SM_B_Corner_Build_02.fbx
+  artifactKey: Guid(5ec7a1bf42422e5469ba870925d67f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Buildings/Build_02/SM_B_Corner_Build_02.fbx using Guid(5ec7a1bf42422e5469ba870925d67f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fcaa47147d0fb13133f4e1e26582b1') in 0.258417 seconds 
+AssetImportWorkerClient::OnTransportError - code=10054 error=Se ha forzado la interrupción de una conexión existente por el host remoto.
