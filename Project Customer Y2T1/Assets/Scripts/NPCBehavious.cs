@@ -13,12 +13,14 @@ public class NPCBehavious : MonoBehaviour
     private Animator anim;
     private AudioSource clip;
 
+    public Rigidbody rb;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
         clip = GetComponent<AudioSource>();
+        rb = GetComponent<Rigidbody>();
     }
 
     //Move forward and calculate the distance between the player and the car
@@ -28,14 +30,16 @@ public class NPCBehavious : MonoBehaviour
         anim.SetFloat("Distance", dist);
 
 
-        transform.position -= transform.forward * speed * Time.deltaTime;
+        //transform.position += transform.forward * speed * Time.deltaTime;
+
+        rb.velocity = transform.forward * speed;
 
         //CarAudio();
         DestroyTheCar();
     }
 
     void DestroyTheCar() {
-        if (dist <= -10)
+        if (dist >= 300)
             Destroy(gameObject);
     }
 
