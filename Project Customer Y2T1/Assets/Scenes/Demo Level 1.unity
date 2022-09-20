@@ -124,6 +124,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Project Customer Y2T1/Assets/Scenes/Demo Level.unity
 --- !u!1001 &10873656
 PrefabInstance:
@@ -188,6 +189,8 @@ Transform:
   m_PrefabInstance: {fileID: 10873656}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 =======
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 --- !u!1 &26085617
@@ -3130,6 +3133,7 @@ Transform:
   m_PrefabInstance: {fileID: 593261819}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Project Customer Y2T1/Assets/Scenes/Demo Level.unity
 --- !u!1001 &620365445
 PrefabInstance:
@@ -3194,6 +3198,8 @@ Transform:
   m_PrefabInstance: {fileID: 620365445}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 =======
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 --- !u!1 &626116397
@@ -10481,11 +10487,15 @@ Transform:
   m_PrefabInstance: {fileID: 2058763218}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Project Customer Y2T1/Assets/Scenes/Demo Level.unity
 --- !u!1 &2063796944
 =======
 --- !u!1 &2067967451
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170:Project Customer Y2T1/Assets/Scenes/Demo Level 1.unity
+=======
+--- !u!1 &2067967451
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 =======
 --- !u!1 &2067967451
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
@@ -10496,6 +10506,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Project Customer Y2T1/Assets/Scenes/Demo Level.unity
   - component: {fileID: 2063796945}
@@ -10508,6 +10519,8 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &2063796945
 =======
+=======
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 =======
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
   - component: {fileID: 2067967453}
@@ -11217,6 +11230,7 @@ Transform:
   m_PrefabInstance: {fileID: 2137481312}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Project Customer Y2T1/Assets/Scenes/Demo Level.unity
 --- !u!1001 &113067702642878095
 PrefabInstance:
@@ -11345,6 +11359,8 @@ Transform:
 =======
 =======
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
+=======
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 --- !u!1 &2146063880
 GameObject:
   m_ObjectHideFlags: 0
@@ -11381,7 +11397,10 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170:Project Customer Y2T1/Assets/Scenes/Demo Level 1.unity
+=======
+>>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 =======
 >>>>>>> 7002267ee0ce6e76fefa5db24bff9d747c5fe170
 --- !u!1001 &2867486944946220984
