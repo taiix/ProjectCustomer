@@ -45,7 +45,7 @@ public class NPCBehavious : MonoBehaviour
     }
 
     void Animations() {
-        if (dist >= -10) {
+        if (dist >= 10) {
             anim.SetInteger("DrunkAnimIndex", Random.Range(0,2));
         }
     }

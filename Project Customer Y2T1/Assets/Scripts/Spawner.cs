@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         //Call SpawnCars every X seconds
-        InvokeRepeating("SpawnCars", 10f, 3f);
+        InvokeRepeating("SpawnCars", 5f, 2f);
     }
     private void Update()
     {
