@@ -63075,6 +63075,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 287841669, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_Mass
       value: 20
@@ -63106,6 +63107,11 @@ PrefabInstance:
     - target: {fileID: 2067967452, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_Mass
       value: 20
+=======
+    - target: {fileID: 1249226333, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2739677775422799418, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_RootOrder
@@ -63121,7 +63127,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2739677775422799418, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream
       value: 50.1
+=======
+      value: -1.5
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2739677775422799418, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -63155,9 +63165,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player's Car
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 7598491426959362144, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: maxTorque
       value: 1000
+=======
+    - target: {fileID: 3264716960481141888, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7598491426959362149, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: environment.Array.data[0]
