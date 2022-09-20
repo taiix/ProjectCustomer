@@ -35,12 +35,28 @@ public class NPCBehavious : MonoBehaviour
         rb.velocity = transform.forward * speed;
 
         //CarAudio();
+        Animations();
         DestroyTheCar();
     }
 
     void DestroyTheCar() {
         if (dist >= 300)
             Destroy(gameObject);
+    }
+
+    void Animations() {
+        if (dist >= -10) {
+            anim.SetInteger("DrunkAnimIndex", Random.Range(0,2));
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            anim.SetTrigger("DetectCar");
+            anim.SetInteger("DrunkAnimIndex", Random.Range(0, 2));
+        }
     }
 
     //void CarAudio() {

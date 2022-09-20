@@ -2,14 +2,10 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject carPrefab;
-    public float offset;
-
-    private GameObject playerOffset;
+    public GameObject[] carPrefab;
 
     void Start()
     {
-        playerOffset = GameObject.FindGameObjectWithTag("Player");
         //Call SpawnCars every X seconds
         InvokeRepeating("SpawnCars", 10f, 3f);
     }
@@ -20,7 +16,7 @@ public class Spawner : MonoBehaviour
     //Spawn cars on random X position
     void SpawnCars()
     {
-        Instantiate(carPrefab,
+        Instantiate(carPrefab[Random.Range(0,carPrefab.Length)],
             new Vector3(Random.Range(transform.position.x - 3, transform.position.x + 3), transform.position.y, transform.position.z),
             Quaternion.identity);
     }

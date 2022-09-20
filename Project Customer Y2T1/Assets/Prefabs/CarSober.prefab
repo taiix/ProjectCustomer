@@ -908,8 +908,9 @@ GameObject:
   - component: {fileID: 34570627156108542}
   - component: {fileID: 34570627156108515}
   - component: {fileID: 34570627156108512}
+  - component: {fileID: 5540888990887373004}
   m_Layer: 0
-  m_Name: Car 1
+  m_Name: CarSober
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,7 +962,7 @@ Animator:
   m_GameObject: {fileID: 34570627156108519}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0efeb0229fabc4049938a440d339d125, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6357fd28347a56841822f5b208f59dfa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -983,10 +984,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69955a1f7133ab4c911846c6bedb8e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
   dist: 0
   carS: {fileID: 0}
   rb: {fileID: 0}
+--- !u!65 &5540888990887373004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34570627156108519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5634785, y: 1, z: 21.861084}
+  m_Center: {x: -0.033060074, y: 0.49, z: 14.040985}
 --- !u!1 &34570627205387806
 GameObject:
   m_ObjectHideFlags: 0
