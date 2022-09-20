@@ -8,8 +8,8 @@ public class CarController : MonoBehaviour
     [SerializeField] WheelCollider frontLeft;
     [SerializeField] WheelCollider frontRight;
     [SerializeField] WheelCollider backLeft;
-    [SerializeField] WheelCollider backRight; 
-    
+    [SerializeField] WheelCollider backRight;
+
     [Header("Wheel Objects")]
     [SerializeField] Transform frontLeftTrans;
     [SerializeField] Transform frontRightTrans;
@@ -23,7 +23,7 @@ public class CarController : MonoBehaviour
     public static float speedometer;
 
     private bool brake;
-
+    private float speed;
     Rigidbody rb;
 
     private void Start()
@@ -33,30 +33,37 @@ public class CarController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float speed = Input.GetAxis("Vertical") * maxTorque;
-        float steering = Input.GetAxis("Horizontal") * maxAngle;
-        float kmph = (int)rb.velocity.magnitude * 3.6f;
-        Debug.Log(kmph);
-        if (kmph <= 80)
+        //Speed Limit
+        if (rb.velocity.magnitude <= 25)
         {
+            speed = Input.GetAxis("Vertical") * maxTorque;
             MotorTorque(speed);
         }
+        else { speed = 0; }
 
-        MotorTorque(speed);
+        float steering = Input.GetAxis("Horizontal") * maxAngle;
+
         Steering(steering);
-
+        Friction(speed);
         Brakes();
 
         UpdateWheelPos(frontLeft, frontLeftTrans);
         UpdateWheelPos(frontRight, frontRightTrans);
 
         speedometer = (float)rb.velocity.magnitude * 3.6f;
+
     }
 
     void MotorTorque(float speed)
     {
         frontLeft.motorTorque = speed;
         frontRight.motorTorque = speed;
+    }
+
+    void Friction(float speed)
+    {
+        if (speed > 0) rb.drag = 0;
+        else rb.drag = 0.2f;
     }
 
     void Steering(float steering)
@@ -70,7 +77,7 @@ public class CarController : MonoBehaviour
         brake = Input.GetKey(KeyCode.Space);
 
         if (brake)
-            brakeForce = 500;
+            brakeForce = 600;
         else
             brakeForce = 0;
 
@@ -80,7 +87,8 @@ public class CarController : MonoBehaviour
         backRight.brakeTorque = brakeForce;
     }
 
-    void UpdateWheelPos(WheelCollider col, Transform wheel) {
+    void UpdateWheelPos(WheelCollider col, Transform wheel)
+    {
         Vector3 pos;
         Quaternion rot;
 

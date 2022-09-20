@@ -21,6 +21,5 @@ public class Speedometer : MonoBehaviour
     {
         speedText.text = CarController.speedometer.ToString("00") + "km/h";
 
-        Debug.Log(currentSpeed);
     }
 }
