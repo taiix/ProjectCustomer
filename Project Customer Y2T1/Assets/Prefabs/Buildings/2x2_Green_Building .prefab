@@ -2333,6 +2333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4444029490774036061}
+  - component: {fileID: 902057228717298401}
   m_Layer: 0
   m_Name: '2x2_Green_Building '
   m_TagString: Untagged
@@ -2380,6 +2381,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &902057228717298401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5047007246129707649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.6536665, y: 8.757366, z: 6.104556}
+  m_Center: {x: -11.633221, y: -2.2544644, z: 1.059055}
 --- !u!1 &5158522001882624533
 GameObject:
   m_ObjectHideFlags: 0
