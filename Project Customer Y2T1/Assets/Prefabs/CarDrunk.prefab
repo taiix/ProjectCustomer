@@ -908,6 +908,7 @@ GameObject:
   - component: {fileID: 34570627156108542}
   - component: {fileID: 34570627156108515}
   - component: {fileID: 34570627156108512}
+  - component: {fileID: 2952862276927306479}
   m_Layer: 0
   m_Name: CarDrunk
   m_TagString: Car
@@ -987,6 +988,19 @@ MonoBehaviour:
   dist: 0
   carS: {fileID: 0}
   rb: {fileID: 0}
+--- !u!65 &2952862276927306479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34570627156108519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5634785, y: 1, z: 21.861084}
+  m_Center: {x: -0.033060074, y: 0.49, z: 14.040985}
 --- !u!1 &34570627205387806
 GameObject:
   m_ObjectHideFlags: 0
