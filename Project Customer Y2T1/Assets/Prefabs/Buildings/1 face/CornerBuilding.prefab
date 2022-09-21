@@ -107,6 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9172617836237591692}
+  - component: {fileID: 8205535310057808139}
   m_Layer: 0
   m_Name: CornerBuilding
   m_TagString: Untagged
@@ -139,6 +140,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8205535310057808139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9172617836237591695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.775305, y: 10.413517, z: 16.904873}
+  m_Center: {x: -7.2236605, y: 0.44829988, z: 25.98836}
 --- !u!1001 &9172617835396612896
 PrefabInstance:
   m_ObjectHideFlags: 0
