@@ -99,6 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a7dcac5f46e6c4996eb67004d46101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxTorque: 10000
+  maxAngle: 20
+  brakeForce: 0
+  clip: []
   frontLeft: {fileID: 3171570217269458818}
   frontRight: {fileID: 3171570218597347614}
   backLeft: {fileID: 3171570218291189575}
@@ -107,9 +111,7 @@ MonoBehaviour:
   frontRightTrans: {fileID: 1918109228736767094}
   backLeftTrans: {fileID: 316400001670392704}
   backRightTrans: {fileID: 3584239502998116149}
-  maxTorque: 10000
-  maxAngle: 20
-  brakeForce: 0
+  audioSource: []
 --- !u!114 &5003760864253389872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a7dcac5f46e6c4996eb67004d46101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxTorque: 1000
+  maxAngle: 20
+  brakeForce: 0
+  clip: []
   frontLeft: {fileID: 3171570218695346743}
   frontRight: {fileID: 3171570217512721205}
   backLeft: {fileID: 3171570218500788381}
@@ -187,9 +193,7 @@ MonoBehaviour:
   frontRightTrans: {fileID: 1918109228736767094}
   backLeftTrans: {fileID: 316400001670392704}
   backRightTrans: {fileID: 3584239502998116149}
-  maxTorque: 1000
-  maxAngle: 20
-  brakeForce: 0
+  audioSource: []
 --- !u!1 &142259418157191320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,14 +2784,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7939293091067146786}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.70710677, z: -0.70710677, w: 0}
   m_LocalPosition: {x: -0.126, y: 1.511, z: 0.276}
   m_LocalScale: {x: 0.01986133, y: 0.063083, z: 0.0060335537}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 722515637016664686}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
 --- !u!33 &3488979770171598992
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2847,7 +2851,7 @@ MeshCollider:
   m_GameObject: {fileID: 7939293091067146786}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
