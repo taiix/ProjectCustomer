@@ -39785,24 +39785,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1a8ce7c0fbca346489ebb4a1fbfb5a97, type: 3}
   m_PrefabInstance: {fileID: 1381629163}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1384776425 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3264716960481141888, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
-  m_PrefabInstance: {fileID: 5725774809897907813}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1384776433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1be790cd56d864aa02c38eaca07d8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 0
 --- !u!1001 &1386483478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49692,6 +49674,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a7dcac5f46e6c4996eb67004d46101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxTorque: 1000
+  maxAngle: 15
+  brakeForce: 0
+  clip: []
   frontLeft: {fileID: 1515463000}
   frontRight: {fileID: 1266310999}
   backLeft: {fileID: 1902526469}
@@ -49700,9 +49686,7 @@ MonoBehaviour:
   frontRightTrans: {fileID: 0}
   backLeftTrans: {fileID: 0}
   backRightTrans: {fileID: 0}
-  maxTorque: 1000
-  maxAngle: 15
-  brakeForce: 0
+  audioSource: []
 --- !u!4 &1730062029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1a8ce7c0fbca346489ebb4a1fbfb5a97, type: 3}
@@ -63241,10 +63225,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1412013687, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2739677775422799418, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_RootOrder
       value: 2
