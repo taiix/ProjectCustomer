@@ -759,7 +759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &507375961
 Transform:
   m_ObjectHideFlags: 0
@@ -2678,7 +2678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a7dcac5f46e6c4996eb67004d46101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTorque: 10000
+  maxTorque: 2000
   maxAngle: 20
   brakeForce: 0
   clip:

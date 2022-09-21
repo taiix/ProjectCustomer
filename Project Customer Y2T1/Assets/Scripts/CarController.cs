@@ -72,7 +72,7 @@ public class CarController : MonoBehaviour
     void Friction(float speed)
     {
         if (speed > 0) rb.drag = 0;
-        else rb.drag = 0.2f;
+        else rb.drag = 0.4f;
     }
 
     void Steering(float steering)
@@ -117,7 +117,7 @@ public class CarController : MonoBehaviour
         brake = Input.GetKey(KeyCode.Space);
 
         if (brake)
-            brakeForce = 1000;
+            brakeForce = 5000;
         else
             brakeForce = 0;
 
