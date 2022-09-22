@@ -9,4 +9,10 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetFloat("HighScore", 0);
         SceneManager.LoadScene(1);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
+    }
 }
