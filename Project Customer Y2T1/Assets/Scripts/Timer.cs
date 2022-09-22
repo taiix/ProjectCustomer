@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public Text timerText;
     public Text highScore;
 
-    private float timer;
+    public float timer;
 
     private float minutes;
     private float seconds;
@@ -16,8 +16,18 @@ public class Timer : MonoBehaviour
     private void Start()
     {
         highScore.text = PlayerPrefs.GetFloat("HighScore").ToString("00:00");
+        timerText.text = PlayerPrefs.GetFloat("Time").ToString("00:00");
+
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.buildIndex == 1)
+        {
+            PlayerPrefs.SetFloat("Time",0);
+        }
+        else
+        timer = PlayerPrefs.GetFloat("Time");
+
     }
-    
+
     void Update()
     {
         timer += Time.deltaTime;
@@ -32,8 +42,9 @@ public class Timer : MonoBehaviour
         seconds = timer % 60;
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        PlayerPrefs.SetFloat("Time", timer);
 
-        if (timer > PlayerPrefs.GetFloat("HighScore"))
+        if (timer < PlayerPrefs.GetFloat("HighScore"))
         {
             PlayerPrefs.SetFloat("HighScore", timer);
             highScore.text = string.Format("{0:00}:{1:00}", minutes, seconds);
@@ -43,7 +54,7 @@ public class Timer : MonoBehaviour
     //Using as a button
     public void ResetScore()
     {
+        if(Input.GetKeyDown(KeyCode.I))
         PlayerPrefs.DeleteAll();
     }
-
 }

@@ -1044,13 +1044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Leaderboard:
-
-    1.
-
-    2.
-
-    3.'
+  m_text: 'Best Score:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dd1d11a8010c2d143bc10ebf0b676e83, type: 2}
   m_sharedMaterial: {fileID: -1865569020781609349, guid: dd1d11a8010c2d143bc10ebf0b676e83, type: 2}
@@ -8880,7 +8874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &375913350
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11627,7 +11621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &458998756
 Transform:
   m_ObjectHideFlags: 0
@@ -21116,7 +21110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &929017203
 Transform:
   m_ObjectHideFlags: 0
@@ -30744,7 +30738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1406356187
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39803,7 +39797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1869815394
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41276,6 +41270,7 @@ GameObject:
   - component: {fileID: 1917381437}
   - component: {fileID: 1917381439}
   - component: {fileID: 1917381438}
+  - component: {fileID: 1917381440}
   m_Layer: 0
   m_Name: YourTime
   m_TagString: Untagged
@@ -41388,7 +41383,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.106544495, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -41439,6 +41434,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1917381440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917381436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d29cc2c45f10242b05ce56275ded60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bestTime: {fileID: 45142134}
 --- !u!1001 &1917592071
 PrefabInstance:
   m_ObjectHideFlags: 0

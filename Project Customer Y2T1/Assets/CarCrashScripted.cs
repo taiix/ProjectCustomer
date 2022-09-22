@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarCrashScripted : MonoBehaviour
 {
     public float speed;
+
+    public Timer timer;
 
     [SerializeField] GameObject panel;
 
@@ -29,12 +32,21 @@ public class CarCrashScripted : MonoBehaviour
         {
             transform.LookAt(player.transform);
         }
-
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
+        {
             panel.SetActive(true);
+            StartCoroutine("NextScene");
+
+        }
+    }
+    IEnumerator NextScene() {
+        PlayerPrefs.SetFloat("HighScore", timer.timer);
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(4);
     }
 }
