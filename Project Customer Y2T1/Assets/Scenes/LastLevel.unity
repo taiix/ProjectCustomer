@@ -62395,6 +62395,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 507375960, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 507375960, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 507375962, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_Intensity
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 755126153, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 755126153, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1924396016, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: m_UseGravity
       value: 1

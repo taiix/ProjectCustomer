@@ -9,8 +9,10 @@ public class LevelLoaderScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             SceneManager.LoadScene(0);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

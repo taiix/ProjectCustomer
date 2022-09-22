@@ -6,6 +6,11 @@ public class RandomStory : MonoBehaviour
 {
     public GameObject[] stories;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     private void Start()
     {
         for (int i = 0; i < 1; i++)

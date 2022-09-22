@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class InstanceManager : MonoBehaviour
 {
-    
+
 
     public float musicValue;
 
@@ -21,23 +21,23 @@ public class InstanceManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            
+
             Load();
 
 
-    DontDestroyOnLoad(this);
-}
+            DontDestroyOnLoad(this);
+        }
         else
-{
+        {
 
-    Destroy(gameObject);
-}
+            Destroy(gameObject);
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-       
+
     }
 
     public void Save()

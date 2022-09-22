@@ -45,8 +45,8 @@ public class CarCrashScripted : MonoBehaviour
         }
     }
     IEnumerator NextScene() {
-        PlayerPrefs.SetFloat("HighScore", timer.timer);
         yield return new WaitForSeconds(2);
+        PlayerPrefs.SetFloat("HighScore", timer.timer);
         SceneManager.LoadScene(4);
     }
 }
