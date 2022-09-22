@@ -63252,6 +63252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player's Car
       objectReference: {fileID: 0}
+    - target: {fileID: 4645775521855200575, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.02596285
+      objectReference: {fileID: 0}
     - target: {fileID: 7598491426959362149, guid: 05833d7c78cc1464b8daea9acc85c2b3, type: 3}
       propertyPath: environment.Array.data[0]
       value: 
