@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class SoundManager : MonoBehaviour
@@ -13,6 +14,8 @@ public class SoundManager : MonoBehaviour
     public Slider volumeSlider;
 
     public float musicVolValue ;
+
+    public string currScene;
 
 
     void Awake()
@@ -27,9 +30,16 @@ public class SoundManager : MonoBehaviour
         volumeSlider.value = musicVolValue;
     }
 
-    private void Update()
+    void Update()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
 
+        string curSceneName = currentScene.name;
+
+        if (curSceneName != "MainMenu")
+        {
+            Destroy(this.gameObject);
+        }
 
     }
 
