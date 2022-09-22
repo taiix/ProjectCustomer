@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void GameStart() {
+        PlayerPrefs.SetFloat("HighScore", 0);
         SceneManager.LoadScene(1);
     }
 
