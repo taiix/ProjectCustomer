@@ -64,7 +64,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.243
+    value: 0.747
   size:
     overrideState: 1
     value: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
     value: 1
   keyValue:
     overrideState: 1
-    value: 0.1
+    value: 2
   eyeAdaptation:
     overrideState: 0
     value: 0
@@ -160,8 +160,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -12
   tint:
     overrideState: 0
     value: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   postExposure:
-    overrideState: 1
-    value: 0.2
+    overrideState: 0
+    value: 0
   contrast:
     overrideState: 0
     value: 0

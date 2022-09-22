@@ -5,6 +5,8 @@ using UnityEngine;
 public class CharacterScript : MonoBehaviour
 {
     public GameObject text;
+    public GameObject spotLight;
+    public GameObject trailLine;
 
     private bool canTake;
 
@@ -14,6 +16,9 @@ public class CharacterScript : MonoBehaviour
         { 
             Destroy(gameObject);
             text.SetActive(false);
+            Destroy(spotLight);
+            Destroy(trailLine);
+
         }
     }
 
